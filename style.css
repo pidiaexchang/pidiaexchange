@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.black {
+    background: black;
+    color: white;
+    text-align: center; /* Center text within sections with black background */
+}
+
+.about {
+    background: white;
+    color: black;
+    padding: 20px;
+    text-align: center; /* Center text in the about section */
+}
+
+.about p {
+    font-size: 23px; /* Set text size to 23px for the about section */
+}
+
+img {
+    width: auto;
+    max-width: 200px;
+    height: auto;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.open-slide {
+    display: none;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+    display: block;
+    transition: 0.5s;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 30px;
+}
+
+.trade-btn {
+    text-decoration: none;
+    background: orange;
+    font-size: 48px; /* Adjusted to 48px */
+    color: white;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.hero, .about, .services, .main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 50px; /* Adjusted to 50px */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px; /* Adjusted to 30px */
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Center-align h2 headings */
+}
+
+p {
+    font-size: 30px; /* Adjusted to 30px */
+    text-align: center; /* Center-align paragraph text */
+    margin: 0 0 15px 0; /* Adjust margin for spacing */
+}
+
+.services p {
+    font-size: 23px; /* Set text size to 23px for services section */
+}
+
+.swift-transaction {
+    font-size: 14px; /* Set text size to 14px */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.safe-trading {
+    font-size: 14px; /* Set text size to 14px */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.contact, .contact-info, footer {
+    background: black; /* Set background to black */
+    color: white; /* Ensure text color is white for readability */
+    padding: 20px; /* Add padding to ensure content spacing */
+    border: none; /* Ensure no border is applied */
+}
+
+.contact-info {
+    font-size: 18px; /* Adjusted to 18px */
+    text-align: left !important; /* Force left alignment */
+    border: 2px solid white; /* Add a white border */
+    padding: 20px; /* Add padding inside the border */
+    margin: 20px; /* Add margin outside the border */
+    background: black; /* Ensure background is black */
+    color: white; /* Ensure text color is white */
+}
+
+.contact-info p {
+    margin: 10px 0; /* Adjust spacing for clarity */
+    font-size: 18px; /* Adjusted to 18px */
+    color: white; /* Ensure text color is white */
+}
+
+.contact-info .phone-number,
+.contact-info .office-address {
+    font-size: 18px; /* Adjusted to 18px */
+}
+
+.contact-info a {
+    color: orange; /* Color of the links */
+    font-size: 18px; /* Adjusted to 18px */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-img {
+    display: none; /* Hide Instagram and Twitter images */
+}
+
+footer {
+    text-align: center;
+    background: black; /* Set footer background to black */
+    width: 100%;
+    padding: 15px 0;
+    color: white; /* Set footer text color to white */
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 20px; /* Adjusted to 20px */
+}
+
+.fast-reliable-text {
+    font-size: 14px; /* Set text size to 14px */
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .open-slide {
+        display: block;
+    }
+}
+
+@media (max-width: 431px) {
+    .nav-bar-nav {
+        display: none;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .trade-btn {
+        font-size: 40px; /* Adjust to fit smaller screens */
+        padding: 12px 16px; /* Adjust for smaller screens */
+    }
+
+    .hero img {
+        max-width: 100%; /* Adjust image size for smaller screens */
+    }
+
+    .contact-info {
+        font-size: 18px; /* Adjust for smaller screens */
+    }
+
+    .contact-info p {
+        font-size: 18px; /* Adjust for smaller screens */
+    }
+
+    .social-img {
+        width: 30px; /* Adjust for smaller screens */
+        height: 30px; /* Adjust for smaller screens */
+    }
+}
