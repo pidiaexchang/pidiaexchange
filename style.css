@@ -104,7 +104,7 @@ img {
 .trade-btn {
     text-decoration: none;
     background: orange;
-    font-size: 48px; /* Adjusted to 48px */
+    font-size: 35px; /* Adjusted to 35px */
     color: white;
     padding: 15px 20px;
     margin-top: 10px;
@@ -122,12 +122,12 @@ img {
 
 .hero h1 {
     color: white;
-    font-size: 50px; /* Adjusted to 50px */
+    font-size: 35px; /* Adjusted to 35px */
     font-weight: bold;
 }
 
 h2 {
-    font-size: 30px; /* Adjusted to 30px */
+    font-size: 35px; /* Adjusted to 35px */
     color: orange;
     font-weight: bold;
     margin-bottom: 10px;
@@ -135,7 +135,7 @@ h2 {
 }
 
 p {
-    font-size: 30px; /* Adjusted to 30px */
+    font-size: 35px; /* Adjusted to 35px */
     text-align: center; /* Center-align paragraph text */
     margin: 0 0 15px 0; /* Adjust margin for spacing */
 }
